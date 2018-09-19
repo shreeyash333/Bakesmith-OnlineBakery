@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("signupback.jpg");
+    height: 175%; 
+    background-position: center;
+    background-repeat: no-repeat;
+	
+    background-size: cover;
+}
+
+input{
+border:none;
+border-bottom:solid white 1px;
+text-align:center;
+font-family:Comic Sans MS;
+background-color:black;
+margin-left:60px;
+margin-right:60px;
+}
+
+input.button{
+color:white;
+background-color:black;
+font-family: "Comic Sans MS";
+width:100px;
+height:50px;
+font-size:20px;
+border:solid white 5px;
+border-radius:40px;
+transition: all 0.5s;
+display:inline-block;
+cursor: pointer;
+}
+
+.signup{
+border:solid white;
+border-width:5px;
+margin-left:300px;
+margin-right:300px;
+background-color:black;
+font-family: "Comic Sans MS";
+opacity:0.7;
+color:white;
+position:relative;
+top:130px;
+}
+
+.navtabs ul {
+overflow:hidden;
+}
+
+.navtabs li  {
+display: inline;
+float:left;
+background-color: #99ccff;
+opacity:0.6;
+}
+
+.navtabs li a {
+	font-family:Comic Sans MS;
+	font-size:15px;
+  display: block;
+  background-color: black;
+	padding-top:43.5px;
+	padding-right:37px;
+	padding-left:35px;
+	padding-bottom:35px;
+	color:white;
+	text-decoration:none;
+}
+
+.navtabs li a:hover {
+    background-color: white;
+	color:black;
+}
+
+.logo img{
+	width:200px;
+	height:100px;
+	float:left;
+	opacity:0.8;
+	padding-right:none;
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	background-color:black;
+	opacity:0.7;
+	position:relative;
+	top:220px;
+}

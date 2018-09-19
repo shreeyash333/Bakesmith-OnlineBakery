@@ -1,0 +1,123 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+	
+}
+
+.bg {
+	background-image:url("indexback.jpg");
+    height: 220%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+font-family:Comic Sans MS;
+text-align:center;
+float:right;
+width:260px;
+margin-right:3px;
+margin-top:10px;
+opacity:0.5;
+background-color:black;
+color:white;
+border-radius:20px;
+}
+
+.buttonlogin{
+color:white;
+background-color:black;
+font-family: "Comic Sans MS";
+width:60px;
+height:20px;
+font-size:10px;
+border-radius:40px;
+transition: all 0.5s;
+display:inline-block;
+cursor: pointer;
+}
+
+.login input{
+border:none;
+border-bottom:1px solid ; 
+text-align:center;
+font-family:Comic Sans MS;
+}
+
+.navtabs ul {
+overflow:hidden;
+position :fixed;
+top:0;
+
+}
+
+.navtabs li  {
+display: inline;
+float:left;
+background-color: #99ccff;
+opacity:0.5;
+}
+
+.navtabs li a {
+	font-family:Comic Sans MS;
+	font-size:15px;
+  display: block;
+  background-color: black;
+	padding-top:43.5px;
+	padding-right:37px;
+	padding-left:35px;
+	padding-bottom:35px;
+	color:white;
+	text-decoration:none;
+}
+
+.navtabs li a:hover {
+    background-color: white;
+	color:black;
+}
+
+.logo img{
+	width:200px;
+	height:100px;
+	float:left;
+	opacity:0.7;
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	background-color:black;
+	opacity:0.7;
+	position:relative;
+	top:1356px;
+}
+/*
+.fimg1 img{
+	width:200px;
+	height:200px;
+	position:relative;
+	top:1000px;
+	float:left;
+	
+}
+.fimg2 img{
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:1000px;
+
+}
+.fimg3 img{
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:1000px;
+	float:right;
+
+}
+.features {
+	width:100%;
+	height:250px;
+	background-color:blue;
+}*/

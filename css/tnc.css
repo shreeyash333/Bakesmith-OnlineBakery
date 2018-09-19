@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0;
+	padding:0;
+}
+
+.bg {
+    background-image: url("tncback.jpg");
+    height: 225%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .text{
+	 
+	 font-family : Comic Sans MS;
+	 margin-left:200px;
+	 margin-right:200px;
+	 
+ }
+ .text h2{
+	color : #F4D03F;
+	 font-size: 40px;
+	margin-top:50px;
+ }
+ .text ul{
+	 background-color:black;
+	 opacity:0.6;
+	 border-radius: 30px;
+	 color: #FDFEFE;
+	 top:0;
+	
+ }
+ 
+ .navtabs ul {
+overflow:hidden;
+
+}
+
+.navtabs li  {
+display: inline;
+float:left;
+background-color: #99ccff;
+opacity:0.6;
+border-radius:50px;
+}
+
+.navtabs li a {
+	font-family:Comic Sans MS;
+	font-size:15px;
+  display: block;
+  background-color: black;
+	padding-top:43.5px;
+	padding-right:37px;
+	padding-left:35px;
+	padding-bottom:35px;
+	color:white;
+	text-decoration:none;
+
+	}
+
+.navtabs li a:hover {
+    background-color: white;
+	color:black;
+}
+
+.logo img{
+	width:200px;
+	height:100px;
+	float:left;
+	opacity:0.8;
+	padding-right:none;
+	
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	background-color:black;
+	opacity:0.7;
+	position:relative;
+	top:117px;
+}
